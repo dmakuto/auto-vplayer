@@ -2,12 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Video } from '../Video/Video';
 import { Menu } from '../Menu/Menu';
+import Antelope from './videos/react_video-antelope.mp4';
+import Snail from './videos/react_video-snail.mp4';
+import Cat from './videos/react_video-cat.mp4';
+import Spider from './videos/react_video-spider.mp4';
+
 
 const VIDEOS = {
-  antelope: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-fast.mp4',
-  snail: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-slow.mp4',
-  cat: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-cute.mp4',
-  spider: 'https://s3.amazonaws.com/codecademy-content/courses/React/react_video-eek.mp4'
+  antelope: Antelope,
+  snail: Snail,
+  cat: Cat,
+  spider: Spider
 };
 
 class App extends React.Component {

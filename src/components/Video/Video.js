@@ -5,6 +5,7 @@ export class Video extends React.Component {
     return (
       <div>
         <video controls autostart autoPlay muted src={this.props.src}/>
+        <h1>We are almost there!</h1>
       </div>
     );
   }
